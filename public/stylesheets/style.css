@@ -1,0 +1,235 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "coco-puff";
+  src: url(/fonts/CocoPuff-Regular.ttf);
+}
+
+.gfm-widget {
+  position: absolute;
+  z-index: 1;
+  float: left;
+  margin-left: 200px;
+  top: 200px;
+}
+
+#waypoint-logo img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px 0 0 85px;
+  width: 119px;
+  height: 119px;
+}
+
+#line1 {
+  z-index: 1;
+  font-family: coco-puff, Helvetica, sans-serif;
+  left: 242px;
+  top: 16px;
+  color: #000
+}
+
+
+#line2 {
+  z-index: 1;
+  font-family: coco-puff, Helvetica, sans-serif;
+  left: 265px;
+  top: 56px;
+  color: #000
+}
+
+.navbar {
+  z-index: -10;
+  top: -50px;
+  margin-left: -75px;
+  position: absolute;
+  min-width: 1465px;
+  width: 100%;
+  height: 165px;
+  background-color: #D34C48;
+}
+
+.navbar .inner {
+  top: 18px;
+  width: inherit;
+  height: 120px;
+  background-color: #fff;
+  left: 75px;
+  z-index: -9;
+}
+
+.masthead-navbar {
+  height: inherit;
+  white-space: nowrap;
+  margin-left: 425px;
+  margin-top: -212px;
+}
+
+.masthead-navbar li {
+  display: inline-block;
+  margin-left: -5px;
+  border-right: 1px solid #a0a0a0;
+  border-left: 1px solid #a0a0a0;
+  height: 100%;
+  width: 190px;
+  text-align: center;
+  line-height: 112.5px;
+}
+
+.masthead-navbar li a:hover {
+  color: #D34C48;
+}
+
+.masthead-navbar li a {
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #333333;
+}
+
+#welcome {
+  overflow: hidden;
+}
+
+.text-box {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  overflow: hidden;
+  height: 550px;
+  width: 550px;
+  margin: 30px 250px 0 450px;
+}
+
+#welcome h2 {
+  z-index: -1;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#welcome h1 {
+  padding-top: 10px;
+  color: #D34C48;
+  text-align: center;
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+#first-para {
+  border-top: 1px solid #b0b0b0;
+  padding-top: 25px;
+  margin-top: 500px;
+}
+
+#welcome p {
+  font-size: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.paypal {
+  z-index: 5;
+  position: relative;
+  white-space: nowrap;
+  left: 1235px;
+  bottom: 90px;
+  max-width: 120px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#legal {
+  font-size: 8px;
+}
+
+/*About me page*/
+.abt-content {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.abt-content h1 {
+  font-size: 48px;
+  margin-bottom: 50px;
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+.abt-content h2 {
+  margin: 0 125px;
+}
+
+/*Twitch*/
+.streams h1 {
+  margin-right: 200px;
+  text-align: center;
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+.streams h2 {
+  margin-right: 200px;
+  text-align: center;
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+.streams p {
+  margin-right: 200px;
+  text-align: center;
+}
+
+.streams {
+  margin-left: 200px;
+}
+
+.streams #chat {
+  display: inline;
+}
+
+/*Events*/
+.events-content h1 {
+  text-align: center;
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+.events-content h2 {
+  text-align: center;
+  margin: 30px 50px 0 50px;
+}
+
+.vr-images {
+  margin: 0 125px;
+}
+
+.vr-images img {
+  margin: 20px;
+}
+
+.pricing h2 {
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+.pricing p {
+  text-align: center;
+}
+
+.game-list h2 {
+  font-family: coco-puff, Verdana, Helvetica, sans-serif;
+}
+
+.email-form p {
+  text-align: center;
+}
+
+.email-form form {
+  margin-left: 470px;
+}
